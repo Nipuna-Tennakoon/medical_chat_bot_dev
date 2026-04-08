@@ -1,0 +1,47 @@
+{
+  "provider": "google-genai",
+  "model": "gemini-3-flash-preview",
+  "profile": {
+    "display_name": "Alex",
+    "age": 42,
+    "chronic_conditions": "Seasonal allergies (patient-reported).",
+    "monitoring_goals": "Daily energy and sleep check-in for two weeks.",
+    "communication_style": "warm mentor; short paragraphs",
+    "extra_notes": ""
+  },
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Skin check-in: I noticed a mole on my upper arm that seems a bit darker than the others. I’m not sure if it has changed, but it’s about the size of a pencil eraser. It doesn’t hurt. What questions should you ask me to assess risk, and what should I monitor over the next 2 weeks?",
+      "ts": "2026-04-08T10:18:33.693857+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Alex. It’s proactive to notice that. Since it stands out (the \"ugly duckling\" sign), consider: Are the edges irregular? Multiple colors? Any itching or bleeding?\n\nFor two weeks, measure it with a ruler and take photos in consistent light. If it changes shape, grows, or crusts, see a dermatologist. Pencil-eraser size (6mm) is a key threshold for professional evaluation. What’s your family history with skin cancer?",
+      "ts": "2026-04-08T10:18:33.693890+00:00"
+    },
+    {
+      "role": "user",
+      "content": "Update: I compared it to my other moles and this one looks a bit more irregular at the edges. It also seems like it might have gotten slightly darker over the last month (not sure). What specific red flags should push me to book a dermatology visit sooner rather than later?",
+      "ts": "2026-04-08T10:18:37.461012+00:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Alex, since you noticed irregular edges and darkening—both parts of the **ABCDE** criteria—it's wise to book an appointment now. \n\nRed flags requiring urgent evaluation include:\n- Rapid growth or shape changes.\n- Bleeding, oozing, or crusting.\n- Persistent itching or pain.\n\nSince it’s already roughly 6mm and evolving, an in-person dermoscopy is the safest way to rule out anything serious. Early detection is key; I'd call a dermatologist today.",
+      "ts": "2026-04-08T10:18:37.461039+00:00"
+    },
+    {
+      "role": "user",
+      "content": "Please look at this skin photo and do a careful, non-diagnostic review using the ABCDE framework. List what would make this more vs less concerning, what extra context you need, and what the safest next steps are. Do NOT provide a definitive diagnosis from the image.",
+      "ts": "2026-04-08T10:18:47.814879+00:00",
+      "meta": {
+        "has_image": true
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "Alex, the photo shows asymmetry and irregular borders with varying brown tones. At ~6mm and evolving, this fits several ABCDE criteria. \n\n**More concerning:** Recent darkening, growth, or family history of melanoma. \n**Less concerning:** Long-term stability.\n\n**Context:** Any past blistering sunburns or tanning bed use?\n\n**Action:** Book an in-person dermatology exam this week. A professional dermoscopy and clinical exam are the only ways to get a definitive evaluation.",
+      "ts": "2026-04-08T10:18:47.814910+00:00"
+    }
+  ]
+}
